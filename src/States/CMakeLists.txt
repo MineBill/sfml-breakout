@@ -1,8 +1,8 @@
 set(FILES 
-    config.hpp
-    State.hpp
+    MenuState.cpp
+    SplashState.cpp
 )
-set(SUBDIRECTORIES "GameData")
+set(SUBDIRECTORIES "")
 
 foreach(VAR ${SUBDIRECTORIES})
     add_subdirectory(${VAR})

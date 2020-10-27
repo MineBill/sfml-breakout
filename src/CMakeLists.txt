@@ -1,7 +1,7 @@
 set(FILES 
     main.cpp
 )
-set(SUBDIRECTORIES "include")
+set(SUBDIRECTORIES "include" "GameData" "States")
 
 add_executable(${PROJECT_NAME} ${FILES})
 target_link_libraries(${PROJECT_NAME} PUBLIC sfml-graphics sfml-window sfml-system ${CONAN_LIBS})
