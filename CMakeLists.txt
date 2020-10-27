@@ -19,7 +19,7 @@ endif()
 include(${CMAKE_BINARY_DIR}/conan.cmake)
 conan_cmake_run(REQUIRES
                 fmt/7.0.3
-                #glfw/3.3.2
+                nlohmann_json/3.9.1
                 BASIC_SETUP
                 BUILD missing
 )

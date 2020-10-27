@@ -1,5 +1,7 @@
 set(FILES 
-    main.cpp
+        main.cpp
+        GameInfo.cpp
+        Game.cpp
 )
 set(SUBDIRECTORIES "include" "GameData" "States")
 

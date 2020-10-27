@@ -1,6 +1,8 @@
 set(FILES 
     config.hpp
     State.hpp
+    Game.hpp
+    GameInfo.hpp
 )
 set(SUBDIRECTORIES "GameData")
 
