@@ -1,8 +1,8 @@
-#include "GameData/GameData.hpp"
-#include "States/SplashState.hpp"
-#include <SFML/Graphics.hpp>
-#include <vector>
+#include "Game.hpp"
 
 int main(int argc, char *argv[]) {
+    Game game(argc, argv);
+
+    game.Run();
     return 0;
 }
